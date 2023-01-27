@@ -8,26 +8,55 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="post">
-      <label for="firstname">First Name</label>
-      <input type="text" name="firstname" id="firstname" />
+    <div class="pagecontainer">
+      <div class="leftcol">
+        <!-- name and background -->
+      </div>
+      <div class="rightcol">
+        <!-- blurb -->
+        <!-- form -->
+        <form action="post">
+          <div class="formcontainer">
+            <div class="formcols">
+              <div class="formleft">
+                <div class="field">
+                  <label for="firstname">First Name</label>
+                  <input type="text" name="firstname" id="firstname" />
+                </div>
 
-      <label for="lastname">Last Name</label>
-      <input type="text" name="lastname" id="lastname" />
+                <div class="field">
+                  <label for="mail">Email</label>
+                  <input type="email" name="mail" id="mail" />
+                </div>
 
-      <label for="mail">Email</label>
-      <input type="email" name="mail" id="mail" />
+                <div class="field">
+                  <label for="pw">Password</label>
+                  <input type="password" name="pw" id="pw" />
+                </div>
+              </div>
+              <div class="formright">
+                <div class="field">
+                  <label for="lastname">Last Name</label>
+                  <input type="text" name="lastname" id="lastname" />
+                </div>
 
-      <label for="phone">Phone Number</label>
-      <input type="tel" name="phone" id="phone" />
+                <div class="field">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" name="phone" id="phone" />
+                </div>
+                <div class="field">
+                  <label for="pwconf">Confirm Password</label>
+                  <input type="password" name="pwconf" id="pwconf" />
+                </div>
+              </div>
+            </div>
 
-      <label for="pw">Password</label>
-      <input type="password" name="pw" id="pw" />
-
-      <label for="pwconf">Confirm Password</label>
-      <input type="password" name="pwconf" id="pwconf" />
-
-      <button type="submit">Create Account</button>
-    </form>
+            <div class="submit">
+              <button type="submit">Create Account</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

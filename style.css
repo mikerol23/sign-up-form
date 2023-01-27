@@ -1,0 +1,20 @@
+.pagecontainer {
+  display: flex;
+  background-image: url("/Users/michaelrolincik/GitHub/Repos/sign-up-form/Assets/wesley-tingey-AZtMXheXnWc-unsplash.jpg");
+}
+
+.leftcol {
+  display: flex;
+  width: 300px;
+}
+
+.rightcol {
+  display: flex;
+  background: lightgray;
+}
+
+/* form */
+form,
+.formcols {
+  display: flex;
+}
