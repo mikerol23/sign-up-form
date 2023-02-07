@@ -1,20 +1,111 @@
-.pagecontainer {
-  display: flex;
-  background-image: url("/Users/michaelrolincik/GitHub/Repos/sign-up-form/Assets/wesley-tingey-AZtMXheXnWc-unsplash.jpg");
+@font-face {
+  font-family: rubik;
+  src: url("/Users/michaelrolincik/GitHub/Repos/sign-up-form/Assets/fonts/rubik/Rubik-Regular.ttf");
 }
 
-.leftcol {
+.container {
   display: flex;
-  width: 300px;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
 }
 
-.rightcol {
+.content {
+  width: 80vw;
   display: flex;
-  background: lightgray;
+  justify-content: center;
+  background: rgb(240, 240, 240);
+}
+
+.left-col {
+  display: flex;
+  width: 50vw;
+  background-image: url("/Users/michaelrolincik/GitHub/Repos/sign-up-form/Assets/halie-west-25xggax4bSA-unsplash.jpg");
+}
+
+.title {
+  width: 100%;
+}
+p {
+  font-family: rubik;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  margin-top: 100px;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.right-col {
+  width: 100%;
+  padding-top: 15vh;
 }
 
 /* form */
-form,
-.formcols {
+.form-cols {
   display: flex;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.blurb,
+.submit {
+  padding-left: 30px;
+}
+
+.blurb {
+  font-size: 20px;
+  width: 440px;
+  margin-bottom: 30px;
+}
+
+.form-cols {
+  background-color: white;
+  width: 100%;
+}
+
+.form-left,
+.form-right {
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.form-right {
+  margin-left: 30px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+input,
+label {
+  display: block;
+  width: 100%;
+}
+
+button {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  background-color: #596d48;
+  color: white;
+  border-style: none;
+  box-shadow: 3px 3px 2px lightgray;
+}
+
+.blurb,
+label,
+button {
+  font-family: rubik;
 }
